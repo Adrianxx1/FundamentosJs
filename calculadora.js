@@ -12,3 +12,14 @@ const sumar = () => {
     const valores = getValues();
     result.value = valores [0] + valores [1];
 }
+
+const limpiar = () => {
+    num1.value = '';
+    num2.value = '';
+    result.value = 0;
+}
+
+const random =() => {
+    num1.value = Math.round(Math.random() * 100000);
+    num2.value = Math.round(Math.random() * 100000);
+}
